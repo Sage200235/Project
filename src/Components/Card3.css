@@ -1,0 +1,135 @@
+.card3Contain{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: linear-gradient(to right, #E9E0F5, #9C81C1);
+}
+
+.card3{
+    width: 25%;
+    height: 380px;
+    display:flex;
+    background-color: #9A6696 ;
+    border-radius: 5px;
+    margin: 10px 10px 10px 10px;
+    flex-direction:column;
+    box-shadow: -1px 6px 5px 0px rgba(0,0,0,0.75);
+}
+
+@media screen and (max-width: 426px) and (min-width: 376px){
+    .card3{
+        width: 75%;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width:1025px) and (min-width: 426px){
+        .card3{
+            width: 30%;
+            height: 320px;
+        }
+}
+
+@media screen and (max-width:376px){
+    .card3{
+        height: 300px;
+        width: 320px;
+    }
+}
+
+.remark{
+    width: 100%;
+    height: 100px;
+}
+
+
+.remark > p{
+    margin-left: 10px;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 20px;
+    text-align: left;
+}
+
+.profileImg{
+    width: 190px;
+    height:150px;
+    border-radius: 50%;
+    align-self: center;
+    margin-top: 5px;  
+}
+
+@media screen and (max-width:1025px){
+        .profileImg{
+            width: 100px;
+            height: 100px;
+        }
+}
+
+
+.card3  >p {
+    margin-left: 10px;
+    line-height: 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logoContain{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 15px;
+    height: 10%;
+    width: 100px;
+    background-color: blue;
+}
+
+@media screen and (max-width:375px){
+    .logoContain{
+        flex-direction: column;
+    }
+}
+
+
+.logo{
+    width: 30px;
+    height: 30px;
+    border-radius:50%;
+}
+
+@media screen and (max-width:1025px){
+    .logo{
+        width: 20px;
+        height: 20px;
+    }
+}
+
+.benefactors{
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to right, #E9E0F5, #9C81C1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pppDiv{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+.ppp{
+    font-size: 25px;
+    color: white; 
+    margin-left: 10px;   
+}
+
+@media screen and (max-width:769px){
+    .ppp{
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,119 @@
+.profile{
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(to right, #E9E0F5, #9C81C1);
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px){
+    .profile{
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 430px){
+    .profile{
+        flex-direction: column;
+        height: fit-content;
+    }
+}
+
+.image{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1024px){
+    .image{
+        width: 40%;
+    }
+}
+
+.image > h1{
+    font-size: normal;
+}
+
+@media screen and (max-width: 430px){
+    .image > h1{
+        font-size: larger;
+        margin-left: 100px;
+    }
+}
+
+.Bigsam{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 430px){
+    .Bigsam{
+        height: 200px;
+        width: 200px;
+        margin-left: 100px;
+    }
+}
+
+.content{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 2px;
+}
+
+.content > h1{
+    font-size: normal;
+}
+
+@media screen and (max-width:430px){
+    .content > h1{
+        font-size: 12px;
+        margin-left: 20px;
+    }
+}
+
+.content > h2{
+    font-size: normal;
+}
+
+@media screen and (max-width:430px){
+    .content > h2{
+        font-size: 12px;
+        margin-left: 20px;
+    }
+}
+
+.socials{
+    width: 255px;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.SoCiAL{
+    font-size: normal;
+    color: black;
+}
+
+.liNKs{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 425px){
+    .liNKs{
+        width: 25px;
+        height: 25px;
+    }  
+}
+
+
